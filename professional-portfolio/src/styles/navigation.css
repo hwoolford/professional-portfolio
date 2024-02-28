@@ -1,0 +1,17 @@
+.navbar {
+    /* background:#2ec4b6; */
+    background: #219ebc;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.navbar a {
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+}

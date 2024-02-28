@@ -1,6 +1,9 @@
+import '../styles/navigation.css'
+
+// eslint-disable-next-line react/prop-types
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs navbar">
       <li className="nav-item">
         <a
           href="/"
