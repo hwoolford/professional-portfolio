@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import './index.css'
 
 import App from './App.jsx';
-import About from './components/pages/About.jsx';
-import Contact from './components/pages/Contact.jsx';
+import About from './components/pages2/About.jsx';
+import Contact from './components/pages2/Contact.jsx';
 import Portfolio from '.components/pages/Portfolio.jsx';
 import Resume from '.components/pages/Resume.jsx';
 
