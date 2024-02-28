@@ -3,7 +3,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#about"
+          href="/"
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
@@ -12,7 +12,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#portfolio"
+          href="/portfolio"
           onClick={() => handlePageChange("Portfolio")}
           className={currentPage === "Portolio" ? "nav-link active" : "nav-link"}
         >
@@ -21,7 +21,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#contact"
+          href="/contact"
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
@@ -30,7 +30,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-        href="#resume"
+        href="/resume"
         onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
