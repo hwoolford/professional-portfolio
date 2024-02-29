@@ -7,7 +7,7 @@ export default function Portfolio() {
       <div className="container">
       <Project
         url="www.google.com"
-        img="./assets/photo.png"
+        img="./assets/projectplaceholder.png"
         alt=""
         title="Project Title"
         desc="Description"
@@ -15,42 +15,42 @@ export default function Portfolio() {
       />
       <Project
         url=""
-        img=""
+        img="./assets/projectplaceholder.png"
         alt=""
-        title=""
-        desc=""
+        title="Project Title"
+        desc="Description"
         repo=""
       />
       <Project
         url=""
-        img=""
+        img="./assets/projectplaceholder.png"
         alt=""
-        title=""
-        desc=""
+        title="Project Title"
+        desc="Description"
         repo=""
       />
       <Project
         url=""
-        img=""
+        img="./assets/projectplaceholder.png"
         alt=""
-        title=""
-        desc=""
+        title="Project Title"
+        desc="Description"
         repo=""
       />
       <Project
         url=""
-        img=""
+        img="./assets/projectplaceholder.png"
         alt=""
-        title=""
-        desc=""
+        title="Project Title"
+        desc="Description"
         repo=""
       />
       <Project
         url=""
-        img=""
+        img="./assets/projectplaceholder.png"
         alt=""
-        title=""
-        desc=""
+        title="Project Title"
+        desc="Description"
         repo=""
       />
       </div>
