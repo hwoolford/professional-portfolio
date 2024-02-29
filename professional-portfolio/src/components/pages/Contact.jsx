@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import "../../styles/contact.css"
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -46,29 +47,36 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <form className="form" onSubmit={handleFormSubmit}>
-        <input
+    <div className="body container-fluid">
+      <h1 className="text-center title">Contact Me</h1>
+      <form className="row g-3 form" onSubmit={handleFormSubmit}>
+      <div className="col-md-6">
+        <input className="inlineInput form-control"
           name="name"
           value={name}
           onChange={handleInputChange}
           type="text"
           placeholder="name"
         />
-        <input
+        </div>
+        <div className="col-md-6">
+        <input className="inlineInput form-control"
           name="email"
           value={email}
           onChange={handleInputChange}
           type="email"
           placeholder="email"
         />
-        <input
+        </div>
+        <div className="col-md-12">
+        <input className="blockInput form-control"
           name="message"
           value={message}
           onChange={handleInputChange}
           type="text"
           placeholder="message"
         />
+        </div>
         <button type="submit">Submit</button>
       </form>
       {error && (

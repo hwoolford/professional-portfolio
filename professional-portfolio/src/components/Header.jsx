@@ -6,7 +6,7 @@ const styles = {
   headingStyle: {
     fontSize: "3rem",
     color: "white",
-    textAlign: "center",
+    // textAlign: "center",
   },
 };
 

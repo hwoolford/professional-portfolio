@@ -1,5 +1,17 @@
+.body {
+  background-color: #f0f0f0;
+  /* height: 80vh; */
+}
+
+.title {
+  margin-bottom: 20px;
+  padding-top: 15px 
+}
+
 .form {
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   
   .form input {
@@ -7,4 +19,25 @@
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
+    border-radius: 3px;
+    border-color: #212529;
+  }
+
+  .inlineInput {
+    height: 40px;
+  }
+
+  .blockInput {
+    height: 200px;
+  }
+
+  .form button {
+    width: 98%;
+    height: 40px;
+    background-color: #219ebc;
+    margin: 20px auto
+  }
+
+  .error-text {
+    text-align: center;
   }
