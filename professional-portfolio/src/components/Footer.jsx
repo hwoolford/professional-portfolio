@@ -6,6 +6,7 @@ const styles = {
     footerTextStyle: {
       fontSize: "1rem",
       color: "black",
+      paddingLeft: "20px",
     },
   };
   

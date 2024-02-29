@@ -1,4 +1,5 @@
-export default function Contact() {
-    return <h1>About</h1>
-    
+export default function About() {
+    return (
+    <h1 className="text-center title">About Me</h1>
+    )   
 }

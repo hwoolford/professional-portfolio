@@ -1,11 +1,10 @@
-.body {
+/* .body {
   background-color: #f0f0f0;
-  /* height: 80vh; */
-}
+} */
 
 .title {
-  margin-bottom: 20px;
-  padding-top: 15px 
+  padding-bottom: 40px;
+  padding-top: 30px 
 }
 
 .form {
@@ -31,11 +30,18 @@
     height: 200px;
   }
 
+  .label {
+    font-size: 1.3rem;
+  }
+
   .form button {
     width: 98%;
     height: 40px;
     background-color: #219ebc;
-    margin: 20px auto
+    margin: 20px auto;
+    border-radius: 3px;
+    border-color: #212529;
+    font-size: 24px;
   }
 
   .error-text {

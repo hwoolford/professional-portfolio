@@ -25,18 +25,13 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
+    if (!name || !message) {
+      setError("Please fill out all fields");
+      return;
+    }
+
     if (!validateEmail(email)) {
       setError("Please enter a valid email address");
-      return;
-    }
-
-    if (!name) {
-      setError("Please enter your name");
-      return;
-    }
-
-    if (!message) {
-      setError("Please enter your message");
       return;
     }
 
@@ -51,30 +46,32 @@ export default function Contact() {
       <h1 className="text-center title">Contact Me</h1>
       <form className="row g-3 form" onSubmit={handleFormSubmit}>
       <div className="col-md-6">
+      <label className="form-label label">Enter your name:</label>
         <input className="inlineInput form-control"
           name="name"
           value={name}
           onChange={handleInputChange}
           type="text"
-          placeholder="name"
+          placeholder="Name"
         />
         </div>
         <div className="col-md-6">
+        <label className="form-label label">Enter your email address:</label>
         <input className="inlineInput form-control"
           name="email"
           value={email}
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
         </div>
         <div className="col-md-12">
+        <label className="form-label label">Enter your message:</label>
         <input className="blockInput form-control"
           name="message"
           value={message}
           onChange={handleInputChange}
           type="text"
-          placeholder="message"
         />
         </div>
         <button type="submit">Submit</button>
