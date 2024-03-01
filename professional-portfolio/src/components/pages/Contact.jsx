@@ -2,7 +2,7 @@ import { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import "../../styles/contact.css"
 
-export default function Contact() {
+export default function Contact(required) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -20,6 +20,12 @@ export default function Contact() {
     } else {
       setMessage(inputValue);
     }
+  };
+
+  const handleBlur = () => {
+    if (required && name || email || message === "") {
+  setError("Field is required");
+}
   };
 
   const handleFormSubmit = (e) => {
@@ -51,6 +57,7 @@ export default function Contact() {
           name="name"
           value={name}
           onChange={handleInputChange}
+          onBlur={handleBlur}
           type="text"
           placeholder="Name"
         />
@@ -61,6 +68,7 @@ export default function Contact() {
           name="email"
           value={email}
           onChange={handleInputChange}
+          onBlur={handleBlur}
           type="email"
           placeholder="Email"
         />
@@ -71,6 +79,7 @@ export default function Contact() {
           name="message"
           value={message}
           onChange={handleInputChange}
+          onBlur={handleBlur}
           type="text"
         />
         </div>

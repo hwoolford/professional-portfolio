@@ -16,3 +16,7 @@
 .navbar a:hover {
     color: white;
 }
+
+.navbar a:active { 
+    color: white;
+}

@@ -11,3 +11,15 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* .githubContainer img:nth-child(2) {
+    display: none; 
+  }
+  
+  .githubContainer:hover img:nth-child(1) {
+    display: none;
+  }
+  
+  .githubContainer:hover img:nth-child(2) {
+    display: block;
+  } */

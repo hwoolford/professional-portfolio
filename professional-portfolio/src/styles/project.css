@@ -14,11 +14,13 @@
     width: 30%;
 }
 
+.card:hover {
+    border: 5px solid #219ebc;
+}
+
 .projectImage {
     width: 100%
 }
-
-
 
 .githubLogo {
     max-width: 30px;
