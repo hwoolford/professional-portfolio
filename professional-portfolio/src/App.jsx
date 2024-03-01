@@ -6,9 +6,16 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 // eslint-disable-next-line react/prop-types
-const Container = ({ children }) => {
+const Background = ({ children }) => {
   return (
-    <div style={{ backgroundColor: '#d8dbe2', display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
+    <div
+      style={{
+        backgroundColor: "#d8dbe2",
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+      }}
+    >
       {children}
     </div>
   );
@@ -16,14 +23,12 @@ const Container = ({ children }) => {
 
 function App() {
   return (
-    <>
-    <Container>
-      <Header />
-      <Navigation />
-      <Outlet />
-      <Footer />
-      </Container>
-    </>
+      <Background>
+        <Header />
+        <Navigation />
+        <Outlet />
+        <Footer />
+      </Background>
   );
 }
 

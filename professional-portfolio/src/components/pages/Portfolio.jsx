@@ -1,10 +1,11 @@
 import Project from "../Project";
+// import "../../styles/portfolio.css"
 
 export default function Portfolio() {
   return (
-    <div className="body container-fluid container">
+    <div className="body container">
       <h1 className="text-center title">Portfolio</h1>
-      <div className="row g-3">
+      <div className="row mb2">
         <div className="col-md-4">
           <Project
             url="http://www.google.com"
@@ -17,55 +18,55 @@ export default function Portfolio() {
         </div>
         <div className="col-md-4">
           <Project
-            url=""
+            url="http://www.google.com"
             img="./assets/projectplaceholder.png"
             alt=""
             title="Project Title"
             desc="Description"
-            repo=""
+            repo="http://www.github.com"
           />
         </div>
         <div className="col-md-4">
           <Project
-            url=""
+            url="http://www.google.com"
             img="./assets/projectplaceholder.png"
             alt=""
             title="Project Title"
             desc="Description"
-            repo=""
+            repo="http://www.github.com"
           />
         </div>
-        <div className="row g-3">
-          <div className="col-md-4">
+      </div>
+      <div className="row">
+        <div className="col-md-4">
           <Project
-            url=""
+            url="http://www.google.com"
             img="./assets/projectplaceholder.png"
             alt=""
             title="Project Title"
             desc="Description"
-            repo=""
+            repo="http://www.github.com"
           />
-          </div>
-          <div className="col-md-4">
+        </div>
+        <div className="col-md-4">
           <Project
-            url=""
+            url="http://www.google.com"
             img="./assets/projectplaceholder.png"
             alt=""
             title="Project Title"
             desc="Description"
-            repo=""
+            repo="http://www.github.com"
           />
-          </div>
-          <div className="col-md-4">
+        </div>
+        <div className="col-md-4">
           <Project
-            url=""
+            url="http://www.google.com"
             img="./assets/projectplaceholder.png"
             alt=""
             title="Project Title"
             desc="Description"
-            repo=""
+            repo="http://www.github.com"
           />
-          </div>
         </div>
       </div>
     </div>
