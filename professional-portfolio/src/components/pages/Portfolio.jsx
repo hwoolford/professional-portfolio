@@ -6,12 +6,12 @@ export default function Portfolio() {
       <h1 className="text-center title">Portfolio</h1>
       <div className="container">
       <Project
-        url="www.google.com"
+        url="http://www.google.com"
         img="./assets/projectplaceholder.png"
         alt=""
         title="Project Title"
         desc="Description"
-        repo="www.github.com"
+        repo="http://www.github.com"
       />
       <Project
         url=""

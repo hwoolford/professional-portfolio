@@ -1,0 +1,13 @@
+.footer {
+    background-color: #219ebc;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialLogo {
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
