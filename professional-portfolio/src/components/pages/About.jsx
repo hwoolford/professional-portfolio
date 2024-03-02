@@ -9,7 +9,7 @@ export default function About() {
           <div className="col-md-3">
             <img
               className="portrait"
-              src="./assets/portraittransparentheadbg.png"
+              src="./assets/photo.png"
               alt="portrait"
             />
           </div>
