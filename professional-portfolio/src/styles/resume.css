@@ -1,0 +1,12 @@
+.skills {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.5rem;
+}

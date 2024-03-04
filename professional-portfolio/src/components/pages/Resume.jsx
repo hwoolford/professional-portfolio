@@ -1,27 +1,34 @@
-import Download from "../Download"
+import Download from "../Download";
+
+import "../../styles/resume.css"
 
 export default function Resume() {
-    return (
-        <div className="container">
-        <h1 className="text-center title">Resume</h1>
-        <Download />
-        <h2>Frontend</h2>
-        <ul>
+  return (
+    <div className="container">
+      <h1 className="text-center title">Resume</h1>
+      <Download />
+      <div className="skills d-flex flex-row justify-content-center">
+        <div className="frontend col-md-6 text-center">
+          <h2>Frontend</h2>
+          <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>JQuery</li>
             <li>Bootstrap</li>
-        </ul>
-        <br />
-        <h2>Backend</h2>
-        <ul>
+          </ul>
+        </div>
+        <div className="backend col-md-6 text-center">
+          <h2>Backend</h2>
+          <ul>
             <li>Node</li>
             <li>Express</li>
             <li>mySQL</li>
             <li>Mongoose</li>
             <li>MongoDB</li>
-        </ul>
+          </ul>
         </div>
-        )
+      </div>
+    </div>
+  );
 }
