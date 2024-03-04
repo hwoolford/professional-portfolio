@@ -13,13 +13,14 @@ export default function Resume() {
             <li>JQuery</li>
             <li>Bootstrap</li>
         </ul>
+        <br />
         <h2>Backend</h2>
         <ul>
             <li>Node</li>
             <li>Express</li>
             <li>mySQL</li>
             <li>Mongoose</li>
-            <li>MongoDb</li>
+            <li>MongoDB</li>
         </ul>
         </div>
         )

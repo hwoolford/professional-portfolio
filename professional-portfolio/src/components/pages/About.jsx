@@ -6,14 +6,14 @@ export default function About() {
       <div className="body container-fluid">
         <h1 className="text-center title">About Me</h1>
         <div className="row container">
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-12">
             <img
               className="portrait"
               src="./assets/photo.png"
               alt="portrait"
             />
           </div>
-          <div className="col-md-9">
+          <div className="col-md-9 col-sm-12">
             <p className="about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
               enim cum suscipit perspiciatis autem officiis commodi earum? Eum

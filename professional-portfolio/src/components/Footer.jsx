@@ -14,6 +14,9 @@ export default function Footer() {
     <a href="https://www.linkedin.com/in/hwoolford/" target="_blank" rel="noreferrer">
     <img className="socialLogo" src="./assets/linkedinlogo.png" alt="LinkedIn Page"></img>
   </a>
+  <a href="https://stackoverflow.com/users/23531312/forxtoisate" target="_blank" rel="noreferrer">
+    <img className="socialLogo" src="./assets/stacklogo.png" alt="Stackoverflow Page"></img>
+  </a>
   
   </footer>
   );
