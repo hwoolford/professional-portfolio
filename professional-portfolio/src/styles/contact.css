@@ -44,6 +44,10 @@
     font-size: 24px;
   }
 
+  .form button:hover {
+    color: white;
+  }
+
   .error-text {
     text-align: center;
   }

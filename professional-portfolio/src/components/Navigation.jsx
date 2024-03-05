@@ -1,93 +1,46 @@
-import '../styles/navigation.css'
+import { NavLink } from 'react-router-dom';
+import '../styles/navigation.css';
 
-// eslint-disable-next-line react/prop-types
-export default function Navigation({ currentPage, handlePageChange }) {
+export default function Navigation() {
   return (
     <ul className="nav nav-pills navbar">
       <li className="nav-item">
-        <a
-          href="/"
-          onClick={() => handlePageChange("About")}
-          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+        <NavLink
+          exact
+          to="/"
+          className="nav-link"
+          activeClassName="active"
         >
           ABOUT ME
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="/portfolio"
-          onClick={() => handlePageChange("Portfolio")}
-          className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+        <NavLink
+          to="/portfolio"
+          className="nav-link"
+          activeClassName="active"
         >
           PORTFOLIO
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="/contact"
-          onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+        <NavLink
+          to="/contact"
+          className="nav-link"
+          activeClassName="active"
         >
           CONTACT
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-        href="/resume"
-        onClick={() => handlePageChange("Resume")}
-          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+        <NavLink
+          to="/resume"
+          className="nav-link"
+          activeClassName="active"
         >
           RESUME
-        </a>
+        </NavLink>
       </li>
     </ul>
   );
 }
-
-// export default function Navigation({ currentPage, handlePageChange }) {
-//   const handleClick = (event, page) => {
-//     event.preventDefault();
-//     handlePageChange(page);
-//   };
-
-//   return (
-//     <ul className="nav nav-pills navbar">
-//       <li className="nav-item">
-//         <a
-//           href="/"
-//           onClick={(event) => handleClick(event, "About")}
-//           className={currentPage === "About" ? "nav-link active" : "nav-link"}
-//         >
-//           ABOUT ME
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="/portfolio"
-//           onClick={(event) => handleClick(event, "Portfolio")}
-//           className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
-//         >
-//           PORTFOLIO
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="/contact"
-//           onClick={(event) => handleClick(event, "Contact")}
-//           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
-//         >
-//           CONTACT
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="/resume"
-//           onClick={(event) => handleClick(event, "Resume")}
-//           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
-//         >
-//           RESUME
-//         </a>
-//       </li>
-//     </ul>
-//   );
-// }

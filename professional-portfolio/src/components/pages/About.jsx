@@ -11,17 +11,13 @@ export default function About() {
           </div>
           <div className="col-md-9 col-sm-12">
             <p className="about">
-              Passionate educator turned aspiring full-stack web developer,
-              equipped with a web development certificate from the University of
-              New Hampshire. Eager to apply my background in education, which
-              has honed my communication, problem-solving, and collaboration
-              skills, to the dynamic world of web development.
+            As a former educator transitioning into the realm of full-stack web development, I bring a unique blend of skills and experiences to the table. Armed with a web development certificate from the University of New Hampshire, I am eager to merge my background in education with the fast-paced and dynamic field of web development.
               <br />
               <br />
-              Proficient in both front-end and back-end technologies, with a
-              keen eye for detail and a drive for continuous learning. Excited
-              to leverage my diverse experiences and embark on a rewarding
-              journey in creating innovative web solutions.
+              Throughout my career in education, I have finely honed my communication, problem-solving, and collaboration abilities, all of which I am excited to now apply to crafting innovative web solutions. Proficient in both front-end and back-end technologies, I possess a meticulous attention to detail and an insatiable drive for continuous learning.
+              <br />
+              <br />
+              I am genuinely enthusiastic about leveraging my diverse experiences to embark on a fulfilling journey in the creation of impactful and user-centric web solutions.
             </p>
           </div>
         </div>
