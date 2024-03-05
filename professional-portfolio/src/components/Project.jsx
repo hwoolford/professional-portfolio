@@ -11,12 +11,12 @@ export default function Project(props) {
         alt={props.alt}
         ></img>
       </a>
-      <h2>{props.title}</h2>
+      <h3>{props.title}</h3>
       <p>{props.desc}</p>
       <a href={props.repo} target="_blank" rel="noreferrer">
         <img
           className="githubLogo"
-          src="./assets/githublogo.png"
+          src="./assets/githublogoblue.png"
           alt="GitHub Project Repository"
         ></img>
       </a>

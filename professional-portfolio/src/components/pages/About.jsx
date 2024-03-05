@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="body container">
         <h1 className="text-center title">About Me</h1>
-        <div className="d-flex flex-row justify-content-between">
+        <div className="d-flex flex-row justify-content-between align-items-center">
           <div className="imageContainer">
             <img
               className="portrait"

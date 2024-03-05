@@ -1,12 +1,43 @@
 .skills {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+h2 {
+    font-size: 2.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #219ebc;
+  }
+
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.frontend, .backend {
+   border: 6px #219ebc solid;
+   border-radius: 20px;
+    width: 400px;
+    background-color: #212529;
+    padding-top: 20px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.frontend {
+    margin-right: 20px;
+}
+
+.backend {
+    margin-left: 20px;
 }

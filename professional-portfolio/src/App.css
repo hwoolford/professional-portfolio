@@ -4,6 +4,21 @@
   min-height: 100vh;
 }
 
+h1 {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 30px;
+  font-size: 3.5rem;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .main-content {
   background-color: #d8dbe2;
   flex: 1;

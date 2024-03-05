@@ -7,10 +7,12 @@
 }
 
 .nav-link {
-  color: white;
-  font-size: 0.9rem;
+  color: #d8dbe2;
+  font-size: 1.5rem;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
 }
 
 .nav-link:hover {
