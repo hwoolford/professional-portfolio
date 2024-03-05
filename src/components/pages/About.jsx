@@ -1,4 +1,5 @@
 import "../../styles/about.css";
+import Portrait from '../../../assets/portraitblue.png'
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
           <div className="imageContainer">
             <img
               className="portrait"
-              src="./assets/portraitblue.png"
+              src={Portrait}
               alt="portrait"
             />
           </div>
