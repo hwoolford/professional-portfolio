@@ -78,7 +78,7 @@ export default function Contact() {
           {errors.name && <p className="error-text">{errors.name}</p>}
         </div>
         <div className="col-md-6">
-          <label className="form-label label">Enter your email address:</label>
+          <label className="form-label label">Enter your email:</label>
           <input
             className="inlineInput form-control"
             name="email"
