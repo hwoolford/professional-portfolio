@@ -6,10 +6,10 @@ export default function Navigation() {
     <ul className="nav nav-pills navbar">
       <li className="nav-item">
         <NavLink
-          exact
           to="/"
-          className="nav-link"
-          activeClassName="active"
+          className={isActive =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
         >
           ABOUT ME
         </NavLink>
@@ -17,8 +17,9 @@ export default function Navigation() {
       <li className="nav-item">
         <NavLink
           to="/portfolio"
-          className="nav-link"
-          activeClassName="active"
+          className={isActive =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
         >
           PORTFOLIO
         </NavLink>
@@ -26,8 +27,9 @@ export default function Navigation() {
       <li className="nav-item">
         <NavLink
           to="/contact"
-          className="nav-link"
-          activeClassName="active"
+          className={isActive =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
         >
           CONTACT
         </NavLink>
@@ -35,8 +37,9 @@ export default function Navigation() {
       <li className="nav-item">
         <NavLink
           to="/resume"
-          className="nav-link"
-          activeClassName="active"
+          className={isActive =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
         >
           RESUME
         </NavLink>
