@@ -2,7 +2,7 @@ import '../styles/footer.css'
 
 export default function Footer() {
   return (
-    <footer className="footer fixed-bottom">
+    <footer className="footer">
       <div className='socialContainer'>
     <a href="https://github.com/hwoolford" target="_blank" rel="noreferrer">
       <img className="socialLogo normal" src="./assets/githublogo.png" alt="GitHub Repo"></img>
