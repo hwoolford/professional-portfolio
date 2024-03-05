@@ -17,13 +17,7 @@
   color: #219ebc;
 }
 
-.nav-link:active {
-  background-color: #219ebc !important;
-  color: black !important;
-  font-weight: bold;
-}
-
-.nav-link:focus {
+.active {
   background-color: #219ebc !important;
   color: black !important;
   font-weight: bold;
