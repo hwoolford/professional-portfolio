@@ -4,9 +4,7 @@
 }
 
 .portrait {
-    height: 250px;
-    border-radius: 50%;
-    border: #219ebc 10px solid;
+    height: 500px;
 }
 
 .about {
