@@ -6,7 +6,7 @@ export default function Portfolio() {
     <div className="body container">
       <h1 className="text-center title">Portfolio</h1>
       <div className="row mb2">
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-12">
           <Project
             url="https://thawing-dawn-01968-1886d8c04121.herokuapp.com/"
             img="./assets/wetmyplants.png"
@@ -16,7 +16,7 @@ export default function Portfolio() {
             repo="https://github.com/CRNaro/group-project-02"
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/storyseeker-for-biblio-cinephiles/"
             img="./assets/storyseeker.png"
@@ -26,7 +26,7 @@ export default function Portfolio() {
             repo="https://github.com/hwoolford/storyseeker-for-biblio-cinephiles"
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/weather-dashboard/"
             img="./assets/weatherdashboard.png"
@@ -38,7 +38,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/multiple-choice-js-coding-quiz/"
             img="./assets/codingquiz.png"
@@ -48,7 +48,7 @@ export default function Portfolio() {
             repo="https://github.com/hwoolford/multiple-choice-js-coding-quiz"
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/work-day-scheduler/"
             img="./assets/workdayscheduler.png"
@@ -58,7 +58,7 @@ export default function Portfolio() {
             repo="https://github.com/hwoolford/work-day-scheduler"
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/password-generator/"
             img="./assets/passwordgenerator.png"

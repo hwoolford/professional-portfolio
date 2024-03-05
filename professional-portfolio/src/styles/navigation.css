@@ -24,3 +24,36 @@
   color: black !important;
   font-weight: bold;
 }
+
+
+@media screen and (max-width: 1050px) {
+  .nav-link {
+   font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 690px) {
+   .nav-link {
+    font-size: .8rem;
+   }
+}
+
+@media screen and (max-width: 586px) {
+  .navbar {
+    padding-right: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .navbar {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .nav-link {
+   font-size: .7rem;
+   justify-content: center;
+  }
+}
