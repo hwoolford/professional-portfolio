@@ -8,7 +8,7 @@ export default function Resume() {
       <h1 className="text-center title">Resume</h1>
      
       <div className="skills d-flex flex-row justify-content-center">
-        <div className="frontend col-md-6 text-center">
+        <div className="frontend col-md-6 col-sm-12 text-center">
           <h2>FRONT-END</h2>
           <ul>
             <li>HTML</li>
@@ -19,7 +19,7 @@ export default function Resume() {
             <li>Bootstrap</li>
           </ul>
         </div>
-        <div className="backend col-md-6 text-center">
+        <div className="backend col-md-6 col-sm-12 text-center">
           <h2>BACK-END</h2>
           <ul>
             <li>Node</li>
