@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import "../styles/project.css";
+import githublogoblue from '../../assets/githublogoblue.png'
 
 export default function Project(props) {
   return (
@@ -16,7 +17,7 @@ export default function Project(props) {
       <a href={props.repo} target="_blank" rel="noreferrer">
         <img
           className="githubLogo"
-          src="./assets/githublogoblue.png"
+          src={githublogoblue}
           alt="GitHub Project Repository"
         ></img>
       </a>

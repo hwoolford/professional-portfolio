@@ -1,5 +1,12 @@
 import Project from "../Project";
-// import "../../styles/portfolio.css"
+import wetmyplants from '../../../assets/wetmyplants.png';
+import storyseeker from '../../../assets/storyseeker.png';
+import weatherdashboard from '../../../assets/weatherdashboard.png';
+import codingquiz from '../../../assets/codingquiz.png';
+import workdayscheduler from '../../../assets/workdayscheduler.png';
+import passwordgenerator from '../../../assets/passwordgenerator.png';
+
+
 
 export default function Portfolio() {
   return (
@@ -9,7 +16,7 @@ export default function Portfolio() {
         <div className="col-md-4 col-sm-12">
           <Project
             url="https://thawing-dawn-01968-1886d8c04121.herokuapp.com/"
-            img="./assets/wetmyplants.png"
+            img={wetmyplants}
             alt="Wet My Plants App Screenshot"
             title="Wet My Plants"
             desc="Perenual API, node.js, express.js, bcrypt, mysql2, sequelize, express-handlebars"
@@ -19,7 +26,7 @@ export default function Portfolio() {
         <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/storyseeker-for-biblio-cinephiles/"
-            img="./assets/storyseeker.png"
+            img={storyseeker}
             alt="StorySeeker App Screenshot"
             title="StorySeeker"
             desc="HTML, CSS, JavaScript, Bulma, OpenLibrary API, TMDB API"
@@ -29,7 +36,7 @@ export default function Portfolio() {
         <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/weather-dashboard/"
-            img="./assets/weatherdashboard.png"
+            img={weatherdashboard}
             alt="Weather Dashboard App Screenshot"
             title="Weather Dashboard"
             desc="HTML, CSS, Bootstrap, JavaScript, JQuery, OpenWeather API"
@@ -41,7 +48,7 @@ export default function Portfolio() {
         <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/multiple-choice-js-coding-quiz/"
-            img="./assets/codingquiz.png"
+            img={codingquiz}
             alt="Coding Quiz App Screenshot"
             title="Coding Quiz"
             desc="HTML, CSS, JavaScript"
@@ -51,7 +58,7 @@ export default function Portfolio() {
         <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/work-day-scheduler/"
-            img="./assets/workdayscheduler.png"
+            img={workdayscheduler}
             alt="Workday Scheduler App Screenshot"
             title="Workday Scheduler"
             desc="HTML, CSS, JavaScript, JQuery, Day.js"
@@ -61,7 +68,7 @@ export default function Portfolio() {
         <div className="col-md-4 col-sm-12">
           <Project
             url="https://hwoolford.github.io/password-generator/"
-            img="./assets/passwordgenerator.png"
+            img={passwordgenerator}
             alt="Password Generator App Screenshot"
             title="Password Generator"
             desc="HTML, CSS, JavaScript"
