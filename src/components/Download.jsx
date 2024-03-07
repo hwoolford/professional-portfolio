@@ -1,4 +1,5 @@
 import "../styles/download.css"
+import "../../assets/resume2024.pdf"
 
 export default function Download() {
     return (
